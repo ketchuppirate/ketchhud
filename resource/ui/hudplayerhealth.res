@@ -28,11 +28,11 @@
 		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"0"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -42,10 +42,10 @@
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -75,27 +75,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
+		"xpos"			"70"
+		"xpos_minmode"	"60"
+		"ypos"			"20"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"100"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BikoRegular16"
-		"fgcolor"		"TanDark"
+		"font"			"LEMONMILKRegular48"
+		"fgcolor"		"0 255 0 255"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
+		"xpos"			"95"
 		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
+		"ypos"			"30"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
